@@ -1,0 +1,398 @@
+/* -------------------- responsivity -------------------- */
+
+@media only screen and (max-width: 1500px) {
+    .home-content h1 {
+        font-size: 6rem;
+    }
+    .home-main-content {
+        max-width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .display1 {
+        font-size: 7.2rem;
+    }
+    .display2 {
+        font-size: 4.4rem;
+    }
+    .section-header {
+        max-width: 800px;
+    }
+    .home-content h1 {
+        font-size: 5.5rem;
+    }
+    .home-main-content {
+        max-width: 800px;
+    }
+    .about-desc {
+        font-size: 2.2rem;
+        max-width: 940px;
+    }
+    .services-list {
+        max-width: 1000px;
+    }
+    .clients-testimonials .testimonials {
+        margin: 0 12%;
+    }
+    .clients-testimonials .testimonials p {
+        font-size: 2.6rem;
+    }
+    .contact-content {
+        max-width: 900px;
+    }
+    [class*="col-"] {
+        padding: 0 20px;
+    }
+    .block-1-2 .col-block {
+        width: 50%;
+    }
+    .block-1-2 .col-block:nth-child(2n+1) {
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .home-content h1 {
+        font-size: 4.6rem;
+    }
+    .home-content br {
+        display: none;
+    }
+    .home-main-content {
+        padding-top: 21rem;
+        padding-right: 80px;
+        max-width: 680px;
+    }
+    .services-list h3 {
+        font-size: 2.5rem;
+    }
+    .clients-testimonials .testimonials p {
+        font-size: 2.2rem;
+    }
+    .contact-content {
+        max-width: 700px;
+    }
+    .contact-primary, .contact-secondary {
+        float: none;
+        width: 100%;
+    }
+    .contact-primary #contactForm {
+        margin-top: -1.5rem;
+        margin-bottom: 7.2rem;
+    }
+    .contact-secondary .hide-on-fullwidth {
+        display: none;
+    }
+    .contact-secondary::before {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .section-header {
+        max-width: 700px;
+    }
+    .footer-main .left {
+        padding-right: 20px;
+    }
+    .footer-main .right {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .display1 {
+        font-size: 6.5rem;
+    }
+    .display2 {
+        font-size: 4rem;
+    }
+    .clients-section {
+        padding-bottom: 17.4rem;
+    }
+    .section-header.bot-sep::before {
+        width: 400px;
+    }
+    .home-content h3 {
+        font-size: 1.5rem;
+    }
+    .home-content h1 {
+        font-size: 4rem;
+    }
+    .home-main-content {
+        padding-right: 70px;
+        max-width: 550px;
+    }
+    .about-desc {
+        font-size: 2rem;
+        max-width: 600px;
+    }
+    .services-list {
+        margin-top: 4.2rem;
+        max-width: 500px;
+        text-align: center;
+    }
+    .services-list h3 {
+        font-size: 3rem;
+    }
+    .services-list .service-text {
+        margin-left: 0;
+    }
+    .services-list .service-icon {
+        font-size: 4.5rem;
+        float: none;
+        margin-top: 0;
+    }
+    .clients-testimonials::before {
+        width: 400px;
+    }
+    .clients-testimonials .testimonials {
+        margin: 0 2rem;
+    }
+    .contact-content h3 {
+        text-align: center;
+    }
+    footer .row {
+        max-width: 600px;
+    }
+    .footer-main .left {
+        padding-right: 15px;
+        margin-bottom: 4.2rem;
+    }
+    .footer-main .right {
+        padding-left: 15px;
+    }
+    .row {
+        width: 90%;
+    }
+    .tab-full {
+        width: 100%;
+    }
+    .block-tab-full .col-block {
+        width: 100%;
+        clear: both;
+    }
+    [class*="block-tab-"] .col-block:nth-child(n) {
+        clear: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .home-main-content {
+        max-width: 490px;
+    }
+    .home-buttons {
+        padding-top: 1.2rem;
+        text-align: center;
+    }
+    .home-buttons .btn {
+        display: block;
+        width: 70%;
+        margin: 1.5rem 0 0 0;
+    }
+    .home-scroll {
+        right: 7.5rem;
+    }
+    .home-line {
+        right: 5.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1, h3, h4, .h2 {
+        margin-top: 5rem;
+    }
+    h5, .h6 {
+        margin-top: 3.5rem;
+        margin-bottom: 1rem;
+    }
+    h1 {
+        font-size: 3rem;
+        letter-spacing: -.05rem;
+    }
+    .display1 {
+        font-size: 5rem;
+    }
+    .display2 {
+        font-size: 3.3rem;
+    }
+    .subhead {
+        font-size: 1.5rem;
+    }
+    .display1 {
+        font-size: 5rem;
+    }
+    .display2 {
+        font-size: 3.3rem;
+    }
+    .section-header.bot-sep {
+        padding-bottom: 0;
+    }
+    .section-header.bot-sep::before {
+        width: 250px;
+    }
+    .section-header {
+        height: 90px;
+    }
+    .header-logo {
+        left: 30px;
+    }
+    .home-content h1 {
+        font-size: 3.8rem;
+    }
+    .home-scroll {
+        bottom: 5.4rem;
+    }
+    .home-line {
+        height: 7.2rem;
+    }
+    .about-section {
+        padding-top: 12rem;
+    }
+    .about-desc {
+        font-size: 1.9rem;
+    }
+    .services-section {
+        padding-top: 12rem;
+    }
+    .services-list h3 {
+        font-size: 2.5rem;
+    }
+    .clients-section {
+        padding-top: 12rem;
+    }
+    .clients-testimonials::before {
+        width: 250px;
+    }
+    .clients-testimonials .testimonials {
+        margin: 0;
+    }
+    .clients-testimonials .testimonials p {
+        font-size: 2rem;
+    }
+    .contact-section {
+        padding-top: 12rem;
+        padding-bottom: 0;
+    }
+    .contact-line {
+        height: 14.4rem;
+        top: -7.2rem;
+    }
+    .contact-content {
+        padding-bottom: 12rem;
+        text-align: center;
+    }
+    .contact-primary, .contact-secondary {
+        padding: 0 20px;
+    }
+    .footer-main .left {
+        padding-right: 10px;
+    }
+    .footer-main .right {
+        padding-left: 10px;
+    }
+    .footer-logo {
+        margin: -.6rem auto 3.6rem;
+    }
+    .row {
+        width: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    [class*="col-"] {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .home-section {
+        min-height: 642px;
+    }
+    .home-content h1 {
+        font-size: 3.5rem;
+    }
+    .home-main-content {
+        text-align: center;
+        max-width: none;
+        padding-top: 15rem;
+        padding-right: 25px;
+        width: 85%;
+    }
+    .home-buttons {
+        padding-top: 1.2rem;
+    }
+    .home-buttons .btn {
+        width: auto;
+        margin: 1.5rem 0 0 0;
+    }
+    .footer-subscribe #mc-form input[type="email"] {
+        padding: 1.2rem 20px 1.2rem;
+        background: rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    .footer-subscribe #mc-form input[type=submit] {
+        position: static;
+        width: 100%;
+        margin-bottom: 1.8rem;
+    }
+    .footer-subscribe #mc-form label {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .home-content h1 {
+        font-size: 3.3rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    html {
+        font-size: 9.5px;
+    }
+    .display1 {
+        font-size: 4.2rem;
+    }
+    .display2 {
+        font-size: 3rem;
+    }
+    .home-section {
+        min-height: 630px;
+    }
+    .home-content h1 {
+        font-size: 3.2rem;
+    }
+    .home-main-content {
+        padding-top: 16.2rem;
+        width: auto;
+    }
+    .about-desc {
+        font-size: 1.8rem;
+    }
+    .services-list h3 {
+        font-size: 2.5rem;
+    }
+    .clients-testimonials .testimonials p {
+        font-size: 1.9rem;
+    }
+    .contact-primary, .contact-secondary {
+        padding: 0 5px;
+    }
+    .footer-main .left {
+        padding-right: 0;
+    }
+    .footer-main .right {
+        padding-left: 0;
+    }
+
+    /*stack columns on small screens*/
+    [class*="col-"] {
+        width: 100% !important;
+        float: none !important;
+        clear: both !important;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+}

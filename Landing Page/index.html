@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-------------------- basic page layout -------------------->
+    <meta charset="utf-8">
+    <title>WebX</title>
+    <meta name="authors" content="Marc-Yves Malchev, Mathew Sakellarakos, Michael Mezzacappa, Michael Porato">
+
+    <!-------------------- responsivity metas -------------------->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-------------------- CSS -------------------->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsivity.css">
+    <link rel="stylesheet" href="css/icons/icons.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-------------------- Java Script -------------------->
+    <script src="js/swiper-bundle.min.js" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="js/main.js" defer></script>
+
+    <!-------------------- favicons -------------------->
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-------------------- header -------------------->
+    <header class="header-section">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo.png">
+            </a>
+        </div>
+
+
+        <div class="wrapper">
+            <input type="checkbox" id="btn" hidden>
+            <label for="btn" class="menu-btn">
+                <i class="fas fa-bars icon-menu-lines"></i>
+                <i class="fas fa-times icon-show-sidebar-horiz"></i>
+            </label>
+            <nav id="sidebar">
+                <div class="title">Navigation</div>
+                    <ul class="list-items">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#clients">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <br/>
+                    </ul>
+            </nav>
+        </div>
+
+
+    </header>
+
+
+    <!-------------------- home -------------------->
+    <section id="home" class="home-section">
+
+        <div class="home-content">
+
+            <div class="row home-main-content">
+
+                <h3>Welcome to WebX</h3>
+
+                <h1>
+                    We design and build websites <br>
+                    Smart, fast, secure. <br>
+                    Styled for your brand. <br>
+                </h1>
+
+                <div class="home-buttons">
+                    <a href="#about" class="btn btn-home">
+                        About Us
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="home-scroll">
+                <a href="#services">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+
+            <div class="home-line"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-------------------- about -------------------->
+    <section id='about' class="about-section">
+
+        <div class="row section-header bot-sep">
+            <div class="col-full">
+                <h3 class="subhead subhead-black">Hello There</h3>
+                <h1 class="display1 display1-white">We Are WebX</h1>
+            </div>
+        </div>
+
+        <div class="row about-desc">
+            <div class="col-full">
+                <p>
+                    Our website development company is built on a foundation of quality, security, and results. 
+                    We create custom websites that are fast, responsive, and tailored to your brand. 
+                    Whether you're launching a new business or revamping your online presence, we deliver solutions that are both visually compelling and technically sound. 
+                    With a strong focus on performance and user experience, we use modern frameworks, clean code, and best-in-class security practices to ensure your site runs smoothly and safely. 
+                    From concept to launch, we’re here to bring your vision to life and make it stand out.
+                </p>
+            </div>
+        </div>
+
+        <div class="about-line"></div>
+
+
+
+    </section>
+
+
+    <!-------------------- services -------------------->
+    <section id='services' class="services-section">
+
+        <div class="row section-header bot-sep">
+            <div class="col-full">
+                <h3 class="subhead">What We Do</h3>
+                <h1 class="display2">We’ve got everything you need to build a powerful online presence</h1>
+            </div>
+        </div>
+
+        <div class="row services-list block-1-2 block-tab-full">
+
+            <div class="col-block service-item">
+                <div class="service-icon">
+                    <i class="icon-paint-brush"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Professional Design</h3>
+                    <p>Our websites feature clean, modern design with a focus on user experience. 
+                        From layout to typography, every detail is crafted to reflect your brand and engage your audience.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item">
+                <div class="service-icon">
+                    <i class="icon-padlock"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Security</h3>
+                    <p>We follow best practices in web security to protect your site and users. 
+                        With secure coding, HTTPS, and reliable hosting, your website stays safe and trustworthy.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item">
+                <div class="service-icon">
+                    <i class="icon-clock"></i>
+                </div>  
+                <div class="service-text">
+                    <h3 class="h2">Launch & Updates</h3>
+                    <p>We deliver projects on time and keep your site current with essential updates. 
+                        Whether it's a launch deadline or ongoing maintenance, we've got your back.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item">
+                <div class="service-icon">
+                    <i class="icon-earth"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Global Accessibility</h3>
+                    <p>Our websites are responsive and optimized for all devices and browsers — so your audience can reach you anywhere, anytime, on any screen.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-------------------- clients -------------------->
+    <section id="clients" class="clients-section">
+
+        <div class="row section-header bot-sep">
+            <div class="col-full">
+                <h3 class="subhead">Our Users</h3>
+                <h1 class="display2">Hear from firsthand experiences of our members</h1>
+            </div>
+        </div>
+
+        <div class="row clients-testimonials mySwiper">
+            <div class="swiper-wrapper">
+                
+
+                <div class="slide swiper-slide testimonials-slide">
+                    <img src="images/avatars/user1.jpg" alt="" class="testimonials-avatar"/>
+                    <div>
+                        <span class="testimonials-name">Athena Isa</span>
+                        <span class="testimonials-job">Freelancer</span>
+                    </div>
+                    <p>
+                    Vault is exceptional.
+                    It simplifies reminders and offers members a seamless, professional experience. 
+                    It's a must-have tool for modern businesses.
+                    </p>
+                </div>
+
+
+                <div class="slide swiper-slide testimonials-slide">
+                    <img src="images/avatars/user2.jpg" alt="" class="testimonials-avatar" />
+                    <div>
+                        <span class="testimonials-name">Plato Carolus</span>
+                        <span class="testimonials-job">Software Engineer</span>
+                    </div>
+                    <p>
+                        Vault offers seamless access to licenses from any device, anywhere. With robust security, it safeguards data effectively. 
+                        Automated reminders ensure timely actions. 
+                        User-friendly and visually appealing, it redefines the license management experience.
+                    </p>
+                </div>
+
+
+                <div class="slide swiper-slide testimonials-slide">
+                    <img src="images/avatars/user3.jpg" alt="" class="testimonials-avatar" />
+                    <div>
+                        <span class="testimonials-name">Apollo Silvinus</span>
+                        <span class="testimonials-job">Entrepreneur</span>
+                    </div>
+                    <p>
+                        Vault is a game-changer. 
+                        It simplifies license tracking, ensures data security, and offers global accessibility. 
+                        A must-have for businesses!
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="swiper-button-next nav-btn"></div>
+            <div class="swiper-button-prev nav-btn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+
+    <!-------------------- contact -------------------->
+    <section id="contact" class="contact-section">
+
+        <div class="overlay"></div>
+        <div class="contact-line"></div>
+
+        <div class="row section-header">
+            <div class="col-full">
+                <h3 class="subhead">Contact Us</h3>
+                <h1 class="display2 display2-white">Reach out for any questions</h1>
+            </div>
+        </div>
+
+        <div class="row contact-content">
+            
+            <div class="contact-primary">
+
+                <h3 class="h6">Send Us A Message</h3>
+
+                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                    <fieldset>
+    
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" required class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button type="button" class="full-width btn-submit" onclick="SendMail()">Submit</button>
+                    </div>
+    
+                    </fieldset>
+                </form>
+
+
+            </div>
+
+            <div class="contact-secondary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+                    <div class="cinfo">
+                        <h5>Where to Find Us</h5>
+                        <p>
+                            Based in Montreal, Canada<br>
+                            We work remotely and meet by appointment.<br>
+                            Get in touch to schedule a call or virtual meeting!
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Email Us At</h5>
+                        <p>
+                            <a href="mailto:webx.inbox@gmail.com?subject=WebX - (enter subject)">
+                                webx.inbox@gmail.com</a>
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Call Us At</h5>
+                        <p>
+                            <a href="tel:+4385207478">
+                            Phone: XXX XXX XXXX</a><br>
+                        </p>
+                    </div>
+
+                </div>
+            </div> 
+
+        </div> 
+
+    </section> 
+
+
+    <!-------------------- footer -------------------->
+    <footer>
+
+        <div class="row footer-main">
+
+            <div class="col-foot tab-full left footer-desc">
+
+                <div class="footer-logo"></div>
+                Discover the perfect solution to manage your software licenses effortlessly. 
+                Our user-friendly platform ensures secure, worldwide access, and helpful reminders for your peace of mind. Explore the possibilities today.
+
+            </div>
+
+
+            <div class="col-foot tab-full right footer-subscribe">
+
+                <h4>Get Notified</h4>
+                <p>Stay in the loop with our notification system. Get timely updates and reminders for upcoming events, promotions, and more. Sign up now and stay informed.</p>
+
+                <div class="subscribe-form">
+                    <form id="mc-form" class="group" novalidate="true" onsubmit="SubscribeMail()">
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                        <input type="submit" name="subscribe" value="Subscribe">
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
