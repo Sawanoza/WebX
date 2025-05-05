@@ -190,7 +190,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: #474ae6;
+    color: #3ce3ac;
 }
 
 a:hover, a:active {
@@ -221,14 +221,14 @@ button, .btn {
 }
 
 button.btn-submit {
-    background: #474ae6;
-    border-color: #474ae6;
+    background: #3ce3ac;
+    border-color: #3ce3ac;
     color: #FFFFFF;
 }
 
 button.btn-submit:hover, button.btn-submit:focus {
-    background: #474ae6d7;
-    border-color: #474ae6d7;
+    background: #3ce3acd7;
+    border-color: #3ce3acd7;
 }
 
 .btn-home {
@@ -325,7 +325,7 @@ label {
     line-height: 1;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #474ae6;
+    color: #3ce3ac;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -469,7 +469,7 @@ label {
     padding-left: 35px;
     padding-top: 20px;
     font-weight: 600;
-    color: #474ae6;
+    color: #3ce3ac;
     font-size: 1.5rem;
     font-family: "montserrat-light", sans-serif;
     text-transform: uppercase;
@@ -604,8 +604,8 @@ label {
 }
 
 .home-scroll a::before {
-    border-bottom: 2px solid #474ae6;
-    border-right: 2px solid #474ae6;
+    border-bottom: 2px solid #3ce3ac;
+    border-right: 2px solid #3ce3ac;
     content: '';
     display: block;
     height: 8px;
@@ -624,7 +624,7 @@ label {
     display: block;
     width: 2px;
     height: 10rem;
-    background-color: #474ae6;
+    background-color: #3ce3ac;
     position: absolute;
     right: 7rem;
     bottom: 0;
@@ -638,7 +638,7 @@ label {
 .about-section {
     padding-top: 16rem;
     padding-bottom: 9rem;
-    background-color: #474ae6;
+    background-color: #3ce3ac;
     color: #010507;
     position: relative;
 }
@@ -711,7 +711,7 @@ label {
 
 .services-list .service-icon {
     float: left;
-    color: #474ae6;
+    color: #3ce3ac;
     font-size: 4.8rem;
     margin-top: 4rem;
 }
@@ -832,7 +832,7 @@ label {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #474ae6;
+    background-color: #3ce3ac;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -859,17 +859,17 @@ label {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #474ae6;
+    color: #3ce3ac;
 }
 
 .contact-content input[type="email"], .contact-content input[type="text"], .contact-content textarea {
-    color: #474ae6;
+    color: #3ce3ac;
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
     margin-bottom: .9rem;
 }
 
 .contact-content input[type="email"]:focus, .contact-content input[type="text"]:focus, .contact-content textarea:focus {
-    border-bottom: 1px solid #474ae6;
+    border-bottom: 1px solid #3ce3ac;
 }
 
 .contact-content button {
@@ -931,7 +931,7 @@ label {
 }
 
 .contact-social li a:hover, .contact-social li a:focus {
-    color: #474ae6;
+    color: #3ce3ac;
 }
 
 
@@ -1018,8 +1018,8 @@ footer .row {
     top: 0;
     right: 0;
     color: #FFFFFF;
-    background: #474ae6;
-    border-color: #474ae6;
+    background: #3ce3ac;
+    border-color: #3ce3ac;
     padding: 0 20px;
 }
 
@@ -1089,6 +1089,6 @@ footer .row {
 /* -------------------- # miscelanious -------------------- */
 /*change autocomplete styles in chrome*/
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus input:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #474ae6;
+    -webkit-text-fill-color: #3ce3ac;
     transition: background-color 5000s ease-in-out 0s;
 }
