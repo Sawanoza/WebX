@@ -1,10 +1,3 @@
-import {
-  EMAILJS_USER_ID,
-  EMAILJS_SERVICE_ID,
-  EMAILJS_TEMPLATE_ID_CONTACT,
-  EMAILJS_TEMPLATE_ID_SUBSCRIBE
-} from './config.js';
-
 document.addEventListener("DOMContentLoaded", function () {
   //initialize Swiper
   var swiper = new Swiper(".mySwiper", {
@@ -55,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   //initialize EmailJS with value from config.js
-  emailjs.init(EMAILJS_USER_ID);
+  emailjs.init("0HxRVAUccY3ZOEi5G");
 
   //make these functions globally accessible
   window.SendMail = function () {
@@ -66,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
       message: document.getElementById("contactMessage").value,
     };
 
-    emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID_CONTACT, params)
+    emailjs.send("service_yis90ow", "template_p73v2xx", params)
       .then(function () {
         alert("Email sent successfully!");
         document.getElementById("contactForm").reset();
@@ -84,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
       email_id: document.getElementById("mc-email").value,
     };
 
-    emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID_SUBSCRIBE, params)
+    emailjs.send("service_yis90ow", "template_dxvk6f5", params)
       .then(function () {
         alert("Subscribed successfully!");
         document.getElementById("mc-form").reset();
