@@ -19,7 +19,7 @@
     <!-------------------- Java Script -------------------->
     <script src="js/swiper-bundle.min.js" defer></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="module" src="js/main.js" defer></script>
+    <script src="js/main.js" defer></script>
 
     <!-------------------- favicons -------------------->
     <link href="favicon.ico" rel="icon" type="image/x-icon">
@@ -358,7 +358,7 @@
                 <p>Stay in the loop with our notification system. Get timely updates and reminders for upcoming events, promotions, and more. Sign up now and stay informed.</p>
 
                 <div class="subscribe-form">
-                    <form id="mc-form" class="group" novalidate="true" onsubmit="SubscribeMail()">
+                    <form id="mc-form" class="group" novalidate="true" onsubmit="SubscribeMail(event)">
                         <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
                         <input type="submit" name="subscribe" value="Subscribe">
                     </form>
