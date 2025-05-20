@@ -1,3 +1,10 @@
+import {
+  EMAILJS_USER_ID,
+  EMAILJS_SERVICE_ID,
+  EMAILJS_TEMPLATE_ID_CONTACT,
+  EMAILJS_TEMPLATE_ID_SUBSCRIBE
+} from './config.js';
+
 document.addEventListener("DOMContentLoaded", function () {
   //initialize Swiper
   var swiper = new Swiper(".mySwiper", {
