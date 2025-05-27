@@ -419,7 +419,7 @@ label {
     position: absolute;
     right: 10px;
     top: 35px;
-    color: #fff;
+    color: #797979;
     height: 45px;
     width: 45px;
     z-index: 3;
@@ -455,7 +455,7 @@ label {
     position: fixed;
     background: black;
     height: 100%;
-    width: 270px;
+    width: 220px;
     overflow: hidden;
     right: -270px;
     transition: all 0.3s ease;
