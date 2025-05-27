@@ -176,6 +176,24 @@
     [class*="block-tab-"] .col-block:nth-child(n) {
         clear: none;
     }
+
+    .block-1-2 .col-block {
+        width: 100% !important;
+        text-align: center;
+        float: none;
+        clear: both;
+    }
+
+    .services-list .service-text {
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    .services-list .service-icon {
+        float: none;
+        margin: 2rem auto 1rem;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -194,7 +212,8 @@
     .home-scroll {
         right: 7.5rem;
     }
-    .home-line {
+    .home-line,
+    .about-line {
         right: 5.5rem;
     }
 }
@@ -227,7 +246,7 @@
         font-size: 3.3rem;
     }
     .section-header.bot-sep {
-        padding-bottom: 0;
+        padding-bottom: 1;
     }
     .section-header.bot-sep::before {
         width: 250px;
@@ -244,7 +263,8 @@
     .home-scroll {
         bottom: 5.4rem;
     }
-    .home-line {
+    .home-line,
+    .about-line {
         height: 7.2rem;
     }
     .about-section {
@@ -256,8 +276,15 @@
     .services-section {
         padding-top: 12rem;
     }
+    .services-list > div:first-child {
+        margin-top: 8rem;
+    }
     .services-list h3 {
         font-size: 2.5rem;
+    }
+    .services-list .service-icon {
+        margin: 1rem auto; /* Reduce from 2rem auto 1rem */
+        font-size: 3.5rem; /* Optional: slightly reduce icon size */
     }
     .clients-section {
         padding-top: 12rem;
@@ -302,6 +329,9 @@
     }
     [class*="col-"] {
         padding: 0 10px;
+    }
+    #services-header::before {
+        bottom: -3.2rem;
     }
 }
 
@@ -395,4 +425,40 @@
         margin-right: 0;
         padding: 0;
     }
+}
+
+/* ---------- Responsive Typography for About Section ---------- */
+
+.about-section .display1 {
+  font-size: clamp(3.2rem, 6vw, 7.5rem);
+  line-height: 1.2;
+}
+
+.about-section .subhead {
+  font-size: clamp(1.4rem, 2vw, 1.8rem);
+  letter-spacing: 0.2rem;
+}
+
+.about-section p {
+  font-size: clamp(1.5rem, 2vw, 2.4rem);
+  line-height: 1.7;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.services-section .display2 {
+  font-size: clamp(2.4rem, 5vw, 5rem); /* Original was 5rem */
+  line-height: 1.3;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.services-list h3 {
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+  margin-top: 2rem;
+}
+
+.services-list p {
+  font-size: clamp(1.4rem, 2vw, 1.8rem);
+  line-height: 1.6;
 }
