@@ -1047,6 +1047,21 @@ footer .row {
     padding: 0 20px;
 }
 
+.footer-lang {
+    margin-top: 2rem;
+}
+
+.lang-footer {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 1.4rem;
+    color: #3ce3ac;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.lang-footer:hover {
+    color: #ffffff;
+}
 
 
 
