@@ -413,6 +413,7 @@ label {
     right: 0;
     margin-top: -10px;
     overflow-y: auto;
+    pointer-events: none;
 }
 
 .wrapper .menu-btn i {
@@ -451,6 +452,14 @@ label {
     opacity: 0;
 }
 
+#btn:checked ~ .wrapper {
+  pointer-events: auto;
+}
+
+.menu-btn {
+  pointer-events: auto !important;
+}
+
 #sidebar{
     position: fixed;
     background: black;
@@ -459,6 +468,7 @@ label {
     overflow: hidden;
     right: -270px;
     transition: all 0.3s ease;
+    pointer-events: auto;
 }
 
 #btn:checked ~ #sidebar{
@@ -797,6 +807,12 @@ label {
 
 .swiper-pagination-bullet-active {
     background: black !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  z-index: 1000;
+  position: absolute;
 }
 
 
