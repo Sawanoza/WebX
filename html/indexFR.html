@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <!-------------------- basic page layout -------------------->
+    <meta charset="utf-8">
+    <title>WebX</title>
+    <meta name="authors" content="Marc-Yves Malchev, Kristiyan Chernev">
+
+    <!-------------------- responsivity metas -------------------->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-------------------- CSS -------------------->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/responsivity.css">
+    <link rel="stylesheet" href="../css/icons/icons.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+
+    <!-------------------- Java Script -------------------->
+    <script src="../js/swiper-bundle.min.js" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="../js/particles.min.js"></script>
+    <script src="../js/particles-config.js"></script>
+    <script src="../js/main.js" defer></script>
+
+    <!-------------------- favicons -------------------->
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-------------------- header -------------------->
+    <header class="header-section">
+
+        <div class="header-logo">
+                <img class="site-logo" src="../images/logo.png">
+        </div>
+
+        <div class="wrapper">
+            <input type="checkbox" id="btn" hidden>
+            <label for="btn" class="menu-btn">
+                <i class="fas fa-bars icon-menu-lines"></i>
+                <i class="fas fa-times icon-show-sidebar-horiz"></i>
+            </label>
+            <nav id="sidebar">
+                <div class="title">Navigation</div>
+                    <ul class="list-items">
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#clients">Témoignages</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <br/>
+                    </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-------------------- home -------------------->
+    <section id="home" class="home-section">
+        
+        <div id="particles-js"></div>
+        
+        <div class="home-content">
+
+            <div class="row home-main-content">
+
+                <h3>Bienvenue chez WebX</h3>
+
+                <h1>
+                    Nous concevons et développons des sites web. <br>
+                    Intelligents, rapides, sécurisés. <br>
+                    Adaptés à votre marque. <br>
+                </h1>
+
+                <div class="home-buttons">
+                    <a href="#about" class="btn btn-home">
+                        À propos de nous
+                    </a>
+                    <a href="projectsFR.html" class="btn btn-home">
+                        Nos projets
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="home-scroll">
+                <a href="#services">
+                    <span>Défiler vers le bas</span>
+                </a>
+            </div>
+
+            <div class="home-line"></div>
+
+        </div>
+
+    </section>
+
+    <!-------------------- about -------------------->
+    <section id='about' class="about-section">
+
+        <div class="row section-header bot-sep">
+            <div class="col-full">
+                <h3 class="subhead subhead-black">Bonjour</h3>
+                <h1 class="display1 display1-white">Nous sommes WebX</h1>
+            </div>
+        </div>
+
+        <div class="row about-desc">
+            <div class="col-full">
+                <p>
+                    Notre entreprise de développement web repose sur une base de qualité, de sécurité et de résultats.
+                    Nous créons des sites web personnalisés qui sont rapides, réactifs et adaptés à votre marque.
+                    Que vous lanciez une nouvelle entreprise ou que vous réorganisiez votre présence en ligne, nous fournissons des solutions à la fois visuellement attrayantes et optimisées.
+                    Avec un fort accent sur la performance et l'expérience utilisateur, nous utilisons des frameworks modernes, un code propre et des pratiques de sécurité de haute qualité pour garantir que votre site fonctionne de manière fluide et sécurisée.
+                    De la conception au lancement, nous sommes là pour donner vie à votre vision et la faire ressortir.
+                </p>
+            </div>
+        </div>
+
+        <div class="about-line"></div>
+
+    </section>
+
+    <!-------------------- services -------------------->
+    <section id='services' class="services-section">
+
+        <div id="services-header" class="row section-header bot-sep">
+            <div class="col-full">
+                <h3 class="subhead">Ce que nous faisons</h3>
+                <h1 class="display2">Nous avons tout ce qu'il faut pour construire une présence en ligne puissante</h1>
+            </div>
+        </div>
+
+        <div class="row services-list block-1-2 block-tab-full">
+
+            <div class="col-block service-item">
+                <div class="service-icon">
+                    <i class="icon-paint-brush"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Design professionnel</h3>
+                    <p>Nos sites web présentent un design propre et moderne avec un accent sur l'expérience utilisateur.
+                        De la mise en page à la typographie, chaque détail est conçu pour refléter votre marque et engager votre audience.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item">
+                <div class="service-icon">
+                    <i class="icon-padlock"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Sécurité</h3>
+                    <p>Nous suivons les meilleures pratiques en matière de sécurité web pour protéger votre site et vos utilisateurs.
+                        Avec un codage sécurisé, le HTTPS et un hébergement fiable, votre site reste sûr et digne de confiance.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item">
+                <div class="service-icon">
+                    <i class="icon-clock"></i>
+                </div>  
+                <div class="service-text">
+                    <h3 class="h2">Lancement & mises à jour</h3>
+                    <p>Nous livrons les projets à temps et maintenons votre site à jour avec les mises à jour essentielles.
+                        Qu'il s'agisse d'une date de lancement ou d'une maintenance continue, nous sommes là pour vous.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item">
+                <div class="service-icon">
+                    <i class="icon-earth"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Accessibilité mondiale</h3>
+                    <p>Nos sites web sont réactifs et optimisés pour tous les appareils et navigateurs — afin que votre audience puisse vous atteindre n'importe où, à tout moment, sur n'importe quel écran.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-------------------- clients -------------------->
+    <section id="clients" class="clients-section">
+
+        <div class="row section-header bot-sep">
+            <div class="col-full">
+                <h3 class="subhead">Nos collaborateurs</h3>
+                <h1 class="display2">Découvrez les expériences de nos clients</h1>
+            </div>
+        </div>
+
+        <div class="row clients-testimonials mySwiper">
+            <div class="swiper-wrapper">
+                
+                <div class="slide swiper-slide testimonials-slide">
+                    <img src="../images/avatars/user1.png" alt="" class="testimonials-avatar"/>
+                    <div>
+                        <span class="testimonials-name">WorldEats</span>
+                        <span class="testimonials-job">Startup d'application mobile</span>
+                    </div>
+                    <p>
+                    Collaborer avec WebX a été une excellente expérience. Ils ont rapidement compris notre vision pour WorldEats
+                    et l'ont traduite en un design propre et intuitif. Le résultat final reflète parfaitement notre objectif de
+                    rendre la découverte de restaurants simple, rapide et agréable.
+                    </p>
+                </div>
+
+                <div class="slide swiper-slide testimonials-slide">
+                    <img src="../images/avatars/user2.png" alt="" class="testimonials-avatar" />
+                    <div>
+                        <span class="testimonials-name">Delivery.</span>
+                        <span class="testimonials-job">Plateforme de gestion de livraison</span>
+                    </div>
+                    <p>
+                        Travailler avec WebX a amélioré la qualité globale de notre service de livraison. Leur attention aux
+                        détails et leur design centré sur l'utilisateur nous ont aidés à créer une expérience fluide qui correspondait à nos
+                        objectifs de projet. Leur contribution a eu un impact durable sur le succès de notre travail.
+                    </p>
+                </div>
+
+                <div class="slide swiper-slide testimonials-slide">
+                    <img src="../images/avatars/user3.png" alt="" class="testimonials-avatar" />
+                    <div>
+                        <span class="testimonials-name">GymLearn</span>
+                        <span class="testimonials-job">Application de planification et réservation de cours</span>
+                    </div>
+                    <p>
+                        Collaborer avec WebX sur notre système de réservation de cours a été une expérience fluide et impactante.
+                        Leur équipe de design nous a aidés à créer une interface utilisateur à la fois intuitive et flexible pour plusieurs
+                        types d'utilisateurs, y compris les clients, les instructeurs et les administrateurs. Nous avons apprécié leur capacité à comprendre rapidement
+                        les exigences du projet et à fournir des designs centrés sur l'utilisateur qui ont amélioré notre système global.
+                    </p>
+                </div>
+
+            </div>
+            <div class="swiper-button-next nav-btn"></div>
+            <div class="swiper-button-prev nav-btn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+<!-------------------- contact -------------------->
+<section id="contact" class="contact-section">
+
+    <div class="overlay"></div>
+    <div class="contact-line"></div>
+
+    <div class="row section-header">
+        <div class="col-full">
+            <h3 class="subhead">Contactez-nous</h3>
+            <h1 class="display2 display2-white">Contactez-nous pour toute question</h1>
+        </div>
+    </div>
+
+    <div class="row contact-content">
+        
+        <div class="contact-primary">
+
+            <h3 class="h6">Envoyez-nous un message</h3>
+
+            <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                <fieldset>
+
+                <div class="form-field">
+                    <input name="contactName" type="text" id="contactName" placeholder="Votre nom" value="" minlength="2" required class="full-width">
+                </div>
+                <div class="form-field">
+                    <input name="contactEmail" type="email" id="contactEmail" placeholder="Votre adresse e-mail" value="" required class="full-width">
+                </div>
+                <div class="form-field">
+                    <input name="contactSubject" type="text" id="contactSubject" placeholder="Sujet" value="" required class="full-width">
+                </div>
+                <div class="form-field">
+                    <textarea name="contactMessage" id="contactMessage" placeholder="Votre message" rows="10" cols="50" required class="full-width"></textarea>
+                </div>
+                <div class="form-field">
+                    <button type="button" class="full-width btn-submit" onclick="SendMail()">Envoyer</button>
+                </div>
+
+                </fieldset>
+            </form>
+
+        </div>
+
+        <div class="contact-secondary">
+            <div class="contact-info">
+
+                <h3 class="h6 hide-on-fullwidth">Informations de contact</h3>
+
+                <div class="cinfo">
+                    <h5>Où nous trouver</h5>
+                    <p>
+                        Basé à Montréal, Canada<br>
+                        Nous travaillons à distance et rencontrons sur rendez-vous.<br>
+                        Contactez-nous pour planifier un appel ou une réunion virtuelle !
+                    </p>
+                </div>
+
+                <div class="cinfo">
+                    <h5>Envoyez-nous un e-mail</h5>
+                    <p>
+                        <a href="mailto:webx.inbox@gmail.com?subject=WebX - (entrez le sujet)">
+                            webx.inbox@gmail.com</a>
+                    </p>
+                </div>
+
+                <div class="cinfo">
+                    <h5>Appelez-nous</h5>
+                    <p>
+                        <a href="tel:+4383382005">
+                        Téléphone : 438 338 2005</a><br>
+                    </p>
+                </div>
+
+            </div>
+        </div> 
+
+    </div> 
+
+</section> 
+
+
+<!-------------------- footer -------------------->
+<footer>
+
+    <div class="row footer-main">
+
+        <div class="col-foot tab-full left footer-desc">
+
+            <div class="footer-logo"></div>
+            Notre plateforme intuitive vous permet de créer facilement des sites web beaux et réactifs. 
+            Profitez d’un accès sécurisé, mondial, et de mises à jour utiles pour que votre site fonctionne sans difficulté. 
+            Découvrez tout ce que nous pouvons faire pour vous aujourd’hui.
+
+            <!-- Language Switch Button -->
+            <div class="footer-lang">
+                Canada (Français) | 
+                <a href="../index.html" class="lang-footer">English</a>
+            </div>
+
+        </div>
+
+        <div class="col-foot tab-full right footer-subscribe">
+
+            <h4>Recevez nos notifications</h4>
+            <p>Restez informé grâce à notre système d’alerte. Recevez des mises à jour et rappels pour les événements à venir, les promotions et plus encore. Abonnez-vous dès maintenant pour rester informé.</p>
+
+            <div class="subscribe-form">
+                <form id="mc-form" class="group" novalidate="true" onsubmit="SubscribeMail(event)">
+                    <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Adresse e-mail" required="">
+                    <input type="submit" name="subscribe" value="S’abonner">
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
