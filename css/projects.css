@@ -1,0 +1,169 @@
+/* Particle background */
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: transparent;
+  color: white;
+}
+
+.header-section {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  position: relative;
+}
+
+.site-logo {
+  height: 150px;
+  width: auto;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -1.9rem;
+  transform: translateY(-26%);
+  z-index: 2;
+}
+
+.projects-section {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.projects-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #3ce3ac;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  color: #3ce3ac;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 1rem;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0.2rem 0;
+}
+
+.project-subtitle {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin: 0;
+}
+
+.project-description {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #ddd;
+}
+
+.project-description img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 6px;
+  display: block;
+}
+
+.description-section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.project-link {
+  color: #30b387;
+  text-decoration: underline; 
+  font-weight: bold; 
+}
+.project-link:hover {
+  opacity: 0.8; 
+}
+
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.image-row img {
+  height: 500px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.gymlearn-images img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 1px;
+}
+
+.gymlearn-image {
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.project-card.expanded {
+  max-width: 50vw;
+  max-height: 90vh;
+  width: 50vw;
+  height: auto;
+  overflow-y: auto;
+  cursor: default;
+  background: rgba(30, 30, 30, 1);
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+  padding-bottom: 2rem;
+}
